@@ -1,0 +1,496 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+body {
+	line-height: 1;
+}
+
+
+
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+
+	body {
+		background: #fff;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 19pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #888;
+	}
+	input, textarea, select {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 19pt;
+		font-weight: 300;
+		line-height: 1.75em;
+		color: #888;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		color: #666;
+		line-height: 1.5em;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+			color: #333;
+		}
+
+	h2 {
+		font-size: 2em;
+		letter-spacing: -1px;
+	}
+
+		h2.alt {
+			color: #888;
+		}
+
+			h2.alt strong {
+				color: #666;
+			}
+
+	h3 {
+		font-size: 1.5em;
+	}
+	strong, b {
+		font-weight: 300;
+		color: #666;
+	}
+
+	em, i {
+		font-style: italic;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		outline: 0;
+	}
+
+		a:hover {
+			color: #E27689;
+			border-bottom-color: rgba(255, 255, 255, 0);
+		}
+
+	sub {
+		position: relative;
+		top: 0.5em;
+		font-size: 0.8em;
+	}
+
+	sup {
+		position: relative;
+		top: -0.5em;
+		font-size: 0.8em;
+	}
+
+	hr {
+		border: 0;
+		border-top: solid 1px #ddd;
+	}
+
+	blockquote {
+		border-left: solid 0.5em #ddd;
+		font-style: italic;
+	}
+
+
+
+		.image.avatar48 {
+			background: #f00;
+		}
+
+
+
+/* Icons */
+
+		ul.icons li {
+			display: inline-block;
+		}
+
+		ul.icons a {
+			line-height: 2em;
+			text-align: center;
+		}
+
+/* Form */
+
+	form label {
+		text-align: left;
+	}
+
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select,
+	form textarea {
+		background: #fff;
+		background: rgba(255, 255, 255, 0.75);
+    }
+
+		form input[type="text"]:focus,
+		form input[type="email"]:focus,
+		form input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+			background: #fff;
+		}
+
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select {
+		line-height: 1.25em;
+	}
+
+
+	form ::-webkit-input-placeholder {
+		color: #555 !important;
+	}
+
+	form :-moz-placeholder {
+		color: #555 !important;
+	}
+
+	form ::-moz-placeholder {
+		color: #555 !important;
+	}
+
+	form :-ms-input-placeholder {
+		color: #555 !important;
+	}
+
+/* Table */
+
+	table {
+		text-align: left;
+	}
+
+		table tbody tr:nth-child(2n+2) {
+			background: #f4f4f4;
+		}
+
+		table th {
+			text-align: left;
+			color: #fff;
+			background: #222729 url("images/overlay.png");
+		}
+
+		table thead {
+			background: #444;
+			color: #fff;
+		}
+
+		table tfoot {
+			background: #eee;
+		}
+
+/* Button */
+
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	button,
+	.button {
+		color: #fff !important;
+		background-color: #8ebebc;
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+	}
+
+		input[type="button"]:hover,
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		button:hover,
+		.button:hover {
+			background-color: #9ececc;
+		}
+
+		input[type="button"]:active,
+		input[type="submit"]:active,
+		input[type="reset"]:active,
+		button:active,
+		.button:active {
+			background-color: #7eaeac;
+		}
+
+/* Item */
+
+	.item {
+		margin-bottom: 40px;
+	}
+
+		.item header {
+			background: #fff;
+			font-size: 0.8em;
+		}
+
+			.item header h3 {
+				font-size: 1em;
+			}
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+	}
+
+		.icon:before {
+			font-family: FontAwesome;
+			font-size: 1.25em;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+		}
+
+/* Header */
+
+	#header {
+	
+		background: #222629 url("images/overlay.png");
+		color: #fff;
+		position: fixed;
+		text-align: right;
+	}
+
+		#header .icons {
+			font-size: 0.8em;
+			text-align: center;
+		}
+
+			#header .icons a {
+				color: #41484c;
+			}
+
+				#header .icons a:hover {
+					color: #fff;
+				}
+
+		#logo h1 {
+			color: #fff;
+			font-weight: 600;
+			font-size: 1em;
+			line-height: 1em;
+		}
+
+		#logo p {
+			font-size: 0.6em;
+			color: rgba(255, 255, 255, 0.5);
+			line-height: 1.25em;
+		
+		}
+
+			#nav ul li a {
+				color: rgba(255, 255, 255, 0.5);
+				text-decoration: none;
+				
+			}
+
+				#nav ul li a span {
+					font-size: 0.8em;
+				}
+
+					#nav ul li a span:before {
+						color: #41484c;
+						text-align: center;
+						line-height: 1.75em;
+					}
+
+				#nav ul li a.active {
+					background: rgba(0, 0, 0, 0.15);
+					color: #fff;
+				}
+
+					#nav ul li a.active span:before {
+						color: #e27689;
+					}
+
+/* Footer */
+
+	#footer {
+		text-align: center;
+		background-color: #dce3e2;
+		font-size: 0.8em;
+	}
+
+
+
+		#main > section {
+			text-align: center;
+			background-image: url("images/overlay.png");
+		}
+
+			#main > section.dark {
+				color: #ddd;
+				color: rgba(255, 255, 255, 0.75);
+			}
+
+				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+					color: inherit;
+				}
+
+				#main > section.dark strong {
+					color: #fff;
+					border-color: inherit;
+				}
+
+				#main > section.dark a {
+					color: #fff;
+					border-color: inherit;
+				}
+
+					#main > section.dark a:hover {
+						border-bottom-color: rgba(255, 255, 255, 0);
+					}
+
+			#main > section.cover {
+				background-size: cover;
+				background-position: center center;
+			}
+
+			#main > section.one {
+				background-color: #81918E;
+				background-image: url("../../images/banner.jpg");
+			}
+
+			#main > section.two {
+				background-color: #f5fafa;
+			}
+
+			#main > section.three {
+				background-color: #ecf1f1;
+			}
+
+			#main > section.four {
+				background-color: #e8edec;
+			}
+
+/* Wide */
+
+	@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 17pt;
+			}
+
+/* Narrow */
+
+	@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+		/* Basic */
+
+			body, input, textarea, select {
+				font-size: 16pt;
+			}
+
+			#nav ul li a {
+				font-size: 0.8em;
+            }
+            
+					#nav ul li a span:before {
+						line-height: 2.25em;
+					}
+
+
+	@media screen and (max-width: 960px) {
+
+			body, input, textarea, select {
+				font-size: 16pt;
+			}
+
+		/* Icons */
+
+			ul.icons a {
+				font-size: 1.25em;
+			}
+
+		/* Header */
+
+			#header {
+				background: #222729 url("images/overlay.png");
+			}
+
+			}
+
+					#headerToggle .toggle:before {
+						font-family: FontAwesome;
+						text-decoration: none;
+						font-style: normal;
+						font-weight: normal;
+						-webkit-font-smoothing: antialiased;
+						-moz-osx-font-smoothing: grayscale;
+						content: '\f0c9';
+						color: #fff;
+						font-size: 18px;
+						line-height: 2.25em;
+						background: rgba(128, 136, 144, 0.5);
+						text-align: center;
+						line-height: 2.25em;
+					}
+
+
+			
+
+	
+
+/* Mobile */
+
+	@media screen and (max-width: 736px) {
+
+
+			body, input, textarea, select {
+				font-size: 14pt;
+			}
+
+			h2 {
+				font-size: 1.5em;
+				letter-spacing: 0;
+				font-weight: 300;
+			}
+		/* List */
+
+			ul.icons a {
+			
+				font-size: 1.25em;
+            }
+        }
+    }
+}
